@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10057978747,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login to FaceBook application",
+        "description": "",
+        "id": "facebook-login-test;login-to-facebook-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1244061401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 761439205,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinations.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9312073239,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters crendentials",
+            "match": {
+              "location": "StepDefinations.user_enters_crendentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15114204,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies FaceBook Home Page",
+            "match": {
+              "location": "StepDefinations.user_verifies_FaceBook_Home_Page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login Test",
+    "description": "",
+    "id": "facebook-login-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/M1035889/workspace/BDDFrameworkCucumber/src/main/java/com/qa/features/Login.feature"
+  }
+]
